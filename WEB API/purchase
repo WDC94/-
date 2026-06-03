@@ -251,3 +251,25 @@
     ]
   }
 }
+#提交
+{
+  "CreateOrgId": 0,
+  "Numbers": ["CGRK182820"],
+  "Ids": "",
+  "SelectedPostId": 0,
+  "UseOrgId": 101,
+  "NetworkCtrl": "",
+  "IgnoreInterationFlag": ""
+}
+#审核
+{
+  "CreateOrgId": 0,
+  "Numbers": ["CGRK182820"],
+  "Ids": "",
+  "InterationFlags": "",
+  "UseOrgId": 101,
+  "NetworkCtrl": "",
+  "IsVerifyProcInst": "true",
+  "IgnoreInterationFlag": "",
+  "UseBatControlTimes": "false"
+}
