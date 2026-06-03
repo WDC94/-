@@ -1,0 +1,253 @@
+# 保存
+{
+  "NeedUpDateFields": [],
+  "NeedReturnFields": [
+    "FID",
+    "FBillNo",
+    "FDocumentStatus",
+    "FInStockEntry.FEntryID",
+    "FInStockEntry.FMaterialId",
+    "FInStockEntry.FRealQty",
+    "FInStockEntry.FStockId",
+    "FInStockEntry.FLot",
+    "FInStockEntry.FRemainInStockUnitId",
+    "FInStockEntry.FRemainInStockQty"
+  ],
+  "IsDeleteEntry": "true",
+  "SubSystemId": "",
+  "IsVerifyBaseDataField": "false",
+  "IsEntryBatchFill": "true",
+  "ValidateFlag": "true",
+  "NumberSearch": "true",
+  "IsAutoAdjustField": "false",
+  "InterationFlags": "",
+  "IgnoreInterationFlag": "",
+  "IsControlPrecision": "false",
+  "ValidateRepeatJson": "false",
+  "Model": {
+    "FID": 0,
+    "FBillTypeID": {
+      "FNUMBER": "RKD01_SYS"
+    },
+    "FBillNo": "",
+    "FDate": "2026-06-03",
+    "FStockOrgId": {
+      "FNumber": "101"
+    },
+    "FStockDeptId": {
+      "FNumber": ""
+    },
+    "FStockerGroupId": {
+      "FNumber": ""
+    },
+    "FStockerId": {
+      "FNumber": ""
+    },
+    "FDemandOrgId": {
+      "FNumber": ""
+    },
+    "FCorrespondOrgId": {
+      "FNumber": ""
+    },
+    "FPurchaseOrgId": {
+      "FNumber": "101"
+    },
+    "FPurchaseDeptId": {
+      "FNumber": ""
+    },
+    "FPurchaserGroupId": {
+      "FNumber": ""
+    },
+    "FPurchaserId": {
+      "FNumber": ""
+    },
+    "FSupplierId": {
+      "FNumber": "G0002"
+    },
+    "FSupplyId": {
+      "FNumber": "G0002"
+    },
+    "FSupplyAddress": "",
+    "FSettleId": {
+      "FNumber": "G0002"
+    },
+    "FChargeId": {
+      "FNumber": "G0002"
+    },
+    "FOwnerTypeIdHead": "BD_OwnerOrg",
+    "FOwnerIdHead": {
+      "FNumber": "101"
+    },
+    "FConfirmerId": {
+      "FUserID": ""
+    },
+    "FConfirmDate": "1900-01-01",
+    "FScanBox": "",
+    "FCDateOffsetUnit": "",
+    "FCDateOffsetValue": 0,
+    "FProviderContactID": {
+      "FCONTACTNUMBER": ""
+    },
+    "FSplitBillType": "",
+    "FSupplyEMail": "",
+    "FSalOutStockOrgId": {
+      "FNumber": ""
+    },
+    "F_PKMO_cgddh": "",
+    "F_PKMO_wwddh": "",
+    "F_WWHH_Text_re5": "",
+    "F_WWHH_BZ": "",
+    "FInStockFin": {
+      "FEntryId": 0,
+      "FSettleOrgId": {
+        "FNumber": "101"
+      },
+      "FSettleTypeId": {
+        "FNumber": ""
+      },
+      "FPayConditionId": {
+        "FNumber": ""
+      },
+      "FSettleCurrId": {
+        "FNumber": "PRE001"
+      },
+      "FIsIncludedTax": "true",
+      "FPriceTimePoint": "1",
+      "FPriceListId": {
+        "FNumber": ""
+      },
+      "FDiscountListId": {
+        "FNumber": ""
+      },
+      "FLocalCurrId": {
+        "FNumber": "PRE001"
+      },
+      "FExchangeTypeId": {
+        "FNumber": "HLTX01_SYS"
+      },
+      "FExchangeRate": 1,
+      "FISPRICEEXCLUDETAX": "false",
+      "FAllDisCount": 0,
+      "FHSExchangeRate": 0
+    },
+    "FInStockEntry": [
+      {
+        "FEntryID": 0,
+        "FRowType": "",
+        "FWWInType": "",
+        "FMaterialId": {
+          "FNumber": "00276.522515"
+        },
+        "FUnitID": {
+          "FNumber": "Pcs"
+        },
+        "FMaterialDesc": "",
+        "FAuxPropId": {},
+        "FParentMatId": {
+          "FNUMBER": ""
+        },
+        "FWWPickMtlQty": 0,
+        "FRealQty": 100,
+        "FPriceUnitID": {
+          "FNumber": "Pcs"
+        },
+        "FPrice": 10,
+        "FLot": {
+          "FNumber": "1"
+        },
+        "FTaxCombination": {
+          "FNumber": ""
+        },
+        "FStockId": {
+          "FNumber": "10101"
+        },
+        "FDisPriceQty": 100,
+        "FStockLocId": {},
+        "FStockStatusId": {
+          "FNumber": "KCZT01_SYS"
+        },
+        "FMtoNo": "",
+        "FGiveAway": "false",
+        "FNote": "API新增采购入库单",
+        "FOWNERTYPEID": "BD_OwnerOrg",
+        "FExtAuxUnitId": {
+          "FNumber": ""
+        },
+        "FExtAuxUnitQty": 0,
+        "FCheckInComing": "false",
+        "FProjectNo": "",
+        "FIsReceiveUpdateStock": "false",
+        "FInvoicedJoinQty": 0,
+        "FPriceBaseQty": 100,
+        "FSetPriceUnitID": {
+          "FNumber": "Pcs"
+        },
+        "FRemainInStockUnitId": {
+          "FNumber": "Pcs"
+        },
+        "FBILLINGCLOSE": "false",
+        "FRemainInStockQty": 100,
+        "FAPNotJoinQty": 0,
+        "FRemainInStockBaseQty": 100,
+        "FTaxPrice": 11.3,
+        "FEntryTaxRate": 13,
+        "FDiscountRate": 0,
+        "FCostPrice": 0,
+        "FBOMId": {
+          "FNumber": ""
+        },
+        "FSupplierLot": "",
+        "FAuxUnitQty": 0,
+        "FOWNERID": {
+          "FNumber": "101"
+        },
+        "FSRCBILLTYPEID": "",
+        "FSRCBillNo": "",
+        "FAllAmountExceptDisCount": 0,
+        "FPriceDiscount": 0,
+        "FConsumeSumQty": 0,
+        "F_VPEN_Decimal": 0,
+        "FBaseConsumeSumQty": 0,
+        "F_VPEN_Decimal1": 0,
+        "FRejectsDiscountAmount": 0,
+        "F_VPEN_Decimal2": 0,
+        "F_VPEN_kc": 0,
+        "FSalOutStockBillNo": "",
+        "FSalOutStockEntryId": 0,
+        "F_VPEN_bhgsl": "",
+        "FBeforeDisPriceQty": 100,
+        "F_VPEN_dzsl": 0,
+        "F_VPEN_dzdj": 0,
+        "F_VPEN_dzje": 0,
+        "F_VPEN_fplx": "",
+        "F_VPEN_dz": "false",
+        "F_VPEN_sl": 0,
+        "F_WWHH_Text_ca9": "",
+        "F_YDSLRQ": "1900-01-01",
+        "F_WWHH_CGHTBH": "",
+        "FPayableEntryID": 0,
+        "FSUBREQBILLNO": "",
+        "FSUBREQBILLSEQ": 0,
+        "FSUBREQENTRYID": 0,
+        "FEntryPruCost": [
+          {
+            "FDetailID": 0
+          }
+        ],
+        "FTaxDetailSubEntity": [
+          {
+            "FDetailID": 0,
+            "FTaxRate": 13
+          }
+        ],
+        "FSerialSubEntity": [
+          {
+            "FDetailID": 0,
+            "FSerialNo": "",
+            "FSerialNote": ""
+          }
+        ]
+      }
+    ]
+  }
+}
