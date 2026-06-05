@@ -1,0 +1,128 @@
+#审核
+{
+  "CreateOrgId": 0,
+  "Numbers": [
+    "ZJDB138020"
+  ],
+  "Ids": "",
+  "InterationFlags": "",
+  "UseOrgId": 0,
+  "NetworkCtrl": false,
+  "IsVerifyProcInst": true,
+  "IgnoreInterationFlag": true,
+  "UseBatControlTimes": false
+}
+#提交
+{
+  "CreateOrgId": 0,
+  "Numbers": [
+    "ZJDB138020"
+  ],
+  "Ids": "",
+  "SelectedPostId": 0,
+  "UseOrgId": 0,
+  "NetworkCtrl": false,
+  "IgnoreInterationFlag": true
+}
+#保存
+{
+  "NeedUpDateFields": [],
+  "NeedReturnFields": [
+    "FID",
+    "FBillNo",
+    "FDocumentStatus"
+  ],
+  "IsDeleteEntry": "true",
+  "SubSystemId": "",
+  "IsVerifyBaseDataField": "false",
+  "IsEntryBatchFill": "true",
+  "ValidateFlag": "true",
+  "NumberSearch": "true",
+  "IsAutoAdjustField": "false",
+  "InterationFlags": "",
+  "IgnoreInterationFlag": "",
+  "IsControlPrecision": "false",
+  "ValidateRepeatJson": "false",
+  "Model": {
+    "FID": 0,
+    "FBillNo": "",
+    "FBillTypeID": {
+      "FNUMBER": "ZJDB01_SYS"
+    },
+    "FBizType": "NORMAL",
+    "FTransferDirect": "GENERAL",
+    "FTransferBizType": "InnerOrgTransfer",
+    "FStockOutOrgId": {
+      "FNumber": "101"
+    },
+    "FOwnerTypeOutIdHead": "BD_OwnerOrg",
+    "FOwnerOutIdHead": {
+      "FNumber": "101"
+    },
+    "FStockOrgId": {
+      "FNumber": "101"
+    },
+    "FOwnerTypeIdHead": "BD_OwnerOrg",
+    "FOwnerIdHead": {
+      "FNumber": "101"
+    },
+    "FDate": "2026-06-04",
+    "FNote": "API保存直接调拨单",
+    "FWriteOffConsign": "false",
+    "FBillEntry": [
+      {
+        "FEntryID": 0,
+        "FMaterialId": {
+          "FNumber": "291X0.151004.001"
+        },
+        "FUnitID": {
+          "FNumber": "Pcs"
+        },
+        "FQty": 1,
+        "FLot": {
+          "FNumber": "1"
+        },
+        "FDestLot": {
+          "FNumber": "1"
+        },
+        "FSrcStockId": {
+          "FNumber": "CK006"
+        },
+        "FDestStockId": {
+          "FNumber": "10110"
+        },
+        "FSrcStockStatusId": {
+          "FNumber": "KCZT01_SYS"
+        },
+        "FDestStockStatusId": {
+          "FNumber": "KCZT01_SYS"
+        },
+        "FOwnerTypeOutId": "BD_OwnerOrg",
+        "FOwnerOutId": {
+          "FNumber": "101"
+        },
+        "FOwnerTypeId": "BD_OwnerOrg",
+        "FOwnerId": {
+          "FNumber": "101"
+        },
+        "FBaseUnitId": {
+          "FNumber": "Pcs"
+        },
+        "FBaseQty": 1,
+        "FISFREE": "false",
+        "FKeeperTypeOutId": "BD_KeeperOrg",
+        "FKeeperOutId": {
+          "FNumber": "101"
+        },
+        "FKeeperTypeId": "BD_KeeperOrg",
+        "FKeeperId": {
+          "FNumber": "101"
+        },
+        "FActQty": 0,
+        "FNoteEntry": "",
+        "FTransReserveLink": "false",
+        "FSerialSubEntity": []
+      }
+    ]
+  }
+}
